@@ -59,7 +59,6 @@ jobs:
           CHEF_LICENSE=accept inspec json . | jq . > profile.json
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git status
           git commit -a -m "adding profile.json to the repository"
       - name: Push changes
         uses: ad-m/github-push-action@master
