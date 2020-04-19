@@ -55,7 +55,9 @@ jobs:
       - name: Check the profile
         run: CHEF_LICENSE=accept inspec check .
       - name: Create current `profile.json`
-        run: CHEF_LICENSE=accept inspec json . | jq . > profile.json
+        run: |
+          CHEF_LICENSE=accept inspec json . | jq . > ./profile.json
+          ls *
       - name: Commit files
         run: |
           git config --local user.email "action@github.com"
