@@ -66,6 +66,7 @@ jobs:
           git commit -m "adding profile.json to the repository" -a
           git pull
           git status
+          git push
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
