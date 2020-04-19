@@ -54,14 +54,14 @@ jobs:
         run: CHEF_LICENSE=accept inspec -v
       - name: Check the profile
         run: CHEF_LICENSE=accept inspec check .
-      - name: Create current `profile.json` and commit it
+      - name: Create current `profile.json`
         run: |
           CHEF_LICENSE=accept inspec json . | jq . > profile.json
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git status
           git commit -a -m "adding profile.json to the repository"
-      - name: Push the profile.json to the repo
+      - name: Push changes
         uses: ad-m/github-push-action@master
         with:
           branch: v2.6
