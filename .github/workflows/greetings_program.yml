@@ -54,6 +54,17 @@ jobs:
         run: CHEF_LICENSE=accept inspec -v
       - name: Check the profile
         run: CHEF_LICENSE=accept inspec check .
+      - name: Create current `profile.json`
+        run: CHEF_LICENSE=accept inspec json . | jq . > profile.json
+      - name: Commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "adding current `profile json` to repository" profile.json
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run kitchen create
         run: CHEF_LICENSE=accept KITCHEN_YAML=./kitchen.ec2.yml kitchen create
       - name: Run kitchen converge
