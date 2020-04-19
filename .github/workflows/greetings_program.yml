@@ -65,8 +65,9 @@ jobs:
           git add profile.json
           git commit -m "adding profile.json to the repository" -a
           git pull
+          git status
       - name: Push changes
-        uses: ad-m/github-push-action@master
+        uses: ad-m/github-push-action@v2.6
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run kitchen create
