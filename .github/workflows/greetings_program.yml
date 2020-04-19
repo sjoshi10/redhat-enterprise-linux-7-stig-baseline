@@ -97,5 +97,5 @@ jobs:
           path: test-result.json
       - name: Save Profile JSON
         uses: actions/upload-artifact@v2-preview
-          with:
-            path: profile.json
+        with:
+          path: profile.json
