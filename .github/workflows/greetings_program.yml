@@ -54,12 +54,18 @@ jobs:
         run: CHEF_LICENSE=accept inspec -v
       - name: Check the profile
         run: CHEF_LICENSE=accept inspec check .
+      - name: Setup Git to push to the repo
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+      - name: Remove old profile.json
+        run: |
+          git rm profile.json
       - name: Create current `profile.json`
         run: |
           CHEF_LICENSE=accept inspec json . | jq . > profile.json
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add -f profile.json
+          git add profile.json
+          git status
           git commit -a -m "adding profile.json to the repository"
       - name: Push changes
         uses: ad-m/github-push-action@master
@@ -76,8 +82,6 @@ jobs:
         run: CHEF_LICENSE=accept KITCHEN_YAML=./kitchen.ec2.yml kitchen destroy
       - name: Commit the test-result.json to the repo
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
           git add -f test-result.json
           git commit -a -m "adding test-result.json to the repository"
       - name: Push test-result.json to the repo
