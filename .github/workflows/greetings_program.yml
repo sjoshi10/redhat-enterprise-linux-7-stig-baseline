@@ -64,7 +64,7 @@ jobs:
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
-          branch: v2.6
+          branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Run kitchen create
         run: CHEF_LICENSE=accept KITCHEN_YAML=./kitchen.ec2.yml kitchen create
@@ -83,7 +83,7 @@ jobs:
       - name: Push test-result.json to the repo
         uses: ad-m/github-push-action@master
         with:
-          branch: v2.6
+          branch: ${{ github.ref }}
           github_token: ${{ secrets.GITHUB_TOKEN }}
       - name: Display our results summary
         run: inspec_tools summary -j test-result.json --json-counts | jq .
