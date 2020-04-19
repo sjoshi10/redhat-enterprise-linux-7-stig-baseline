@@ -62,7 +62,8 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "adding current `profile json` to repository" profile.json
+          git add profile.json
+          git commit -m "adding current `profile json` to repository"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
