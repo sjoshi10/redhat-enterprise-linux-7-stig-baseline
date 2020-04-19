@@ -59,6 +59,7 @@ jobs:
           CHEF_LICENSE=accept inspec json . | jq . > profile.json
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git rm --cached profile.json
           git add profile.json
           git commit -a -m "adding profile.json to the repository"
       - name: Push changes
@@ -78,6 +79,7 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
+          git rm --cached test-result.json
           git add test-result.json
           git commit -a -m "adding test-result.json to the repository"
       - name: Push test-result.json to the repo
@@ -89,8 +91,11 @@ jobs:
         run: inspec_tools summary -j test-result.json --json-counts | jq .
       - name: Ensure the scan meets our threshold
         run: inspec_tools compliance -j test-result.json -f threshold.yml
-      - name: Archive_InSpec_Test_Results
-        uses: actions/upload-artifact@v1
+      - name: Save Test Result JSON
+        uses: actions/upload-artifact@v2-preview
         with:
-          name: Test-Run-Artifacts
           path: test-result.json
+      - name: Save Profile JSON
+        uses: actions/upload-artifact@v2-preview
+          with:
+            path: profile.json
