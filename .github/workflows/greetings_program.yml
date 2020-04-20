@@ -61,9 +61,9 @@ jobs:
       # - name: Remove old profile.json
       #   run: |
       #     git rm profile.json
-      # - name: Create current `profile.json`
-      #   run: |
-      #     CHEF_LICENSE=accept inspec json . | jq . > profile.json
+      - name: Create current `profile.json`
+        run: |
+          CHEF_LICENSE=accept inspec json . | jq . > profile.json
       #     git add profile.json
       #     git status
       #     git commit -a -m "adding profile.json to the repository"
