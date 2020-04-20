@@ -69,8 +69,7 @@ profiles in `spec/fixtures/inspec_profiles` during testing.
 3. If the tests are not found when running `kitchen verify`, open
    `.kitchen.yml` and consult `inspec_tests` under the `suites` section.
 
-
-4. You may also experience an error when running `kitchen converge` where a
+4) You may also experience an error when running `kitchen converge` where a
    folder is unable to be created due to the length of the path. In this case,
    you may need to edit a registry key as explained
    [here](https://www.howtogeek.com/266621/how-to-make-windows-10-accept-file-paths-over-260-characters/).
@@ -96,7 +95,7 @@ more manually. Once resolved fully, you will only need to run `kitchen verify (m
 1. cd `.kitchen/`
 2. vi default-centos-7.yml
 3. copy the `ssh_key:` value for later
-4. note the mapped port value ( usually `2222`) and use in the next steps
+4. note the mapped port value ( usually `2222`) and use in the next step
 
 ### In the 'inspec_profiles' dir
 
