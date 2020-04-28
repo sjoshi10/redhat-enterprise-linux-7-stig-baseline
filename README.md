@@ -6,6 +6,16 @@ maintained as part of the SIMP project.
 That said, it is our goal to make them valid for general purpose usage and
 hopefully hand them off to a more structured body as time progresses.
 
+## Long Running Controls
+
+There are a few long running controls that take anywhere from 3 minutes to 10 minutes or more to run. In an ongoing or CI/CD pipelne this is not ideal. We have created an attribute in the profile to allow you to 'skip' these controls to account for situations.
+
+The input DISABLE_SLOW_CONTROLS (bool: false) can be set to true or false as needed in the attributes.yml file.
+
+V-71849 (~3 minutes)
+V-71855 (~3 minutes)
+V-72037 (10+ minutes)
+
 # Testing
 
 This repository uses either [Beaker](https://github.com/puppetlabs/beaker) to
