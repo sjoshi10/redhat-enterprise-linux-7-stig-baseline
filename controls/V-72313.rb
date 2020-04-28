@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72313" do
   title "SNMP community strings on the Red Hat Enterprise Linux operating
 system must be changed from the default."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72315" do
   title "The Red Hat Enterprise Linux operating system access control program
 must be configured to grant or deny system access to specific hosts and

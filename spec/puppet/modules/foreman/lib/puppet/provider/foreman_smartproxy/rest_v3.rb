@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:foreman_smartproxy).provide(:rest_v3, :parent => Puppet::Type.type(:foreman_resource).provider(:rest_v3)) do
   confine :feature => [:json, :oauth]
 

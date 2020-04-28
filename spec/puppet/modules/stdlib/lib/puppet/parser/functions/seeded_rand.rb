@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Parser::Functions::newfunction(
   :seeded_rand,
   :arity => 2,

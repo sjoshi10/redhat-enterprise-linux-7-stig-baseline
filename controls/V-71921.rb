@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71921" do
   title "The Red Hat Enterprise Linux operating system must be configured to
 use the shadow file to store only encrypted representations of passwords."

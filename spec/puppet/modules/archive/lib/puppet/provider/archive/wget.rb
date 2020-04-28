@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:archive).provide(:wget, parent: :ruby) do
   commands wget: 'wget'
 

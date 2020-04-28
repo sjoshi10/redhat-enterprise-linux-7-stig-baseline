@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puppet'
 require 'puppet/type'
 require 'puppet/provider'

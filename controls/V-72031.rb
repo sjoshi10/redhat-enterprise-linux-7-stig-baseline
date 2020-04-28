@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72031" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all local initialization files for local interactive users are be

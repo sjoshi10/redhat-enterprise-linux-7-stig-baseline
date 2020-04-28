@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71963" do
   title "Red Hat Enterprise Linux operating systems prior to version 7.2 using
 Unified Extensible Firmware Interface (UEFI) must require authentication upon

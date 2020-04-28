@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72259" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the SSH daemon does not permit Generic Security Service Application

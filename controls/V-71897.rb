@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71897" do
   title "The Red Hat Enterprise Linux operating system must have the screen
 package installed."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72051" do
   title "The Red Hat Enterprise Linux operating system must have cron logging
 implemented."

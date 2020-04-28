@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Functions.create_function(:is_array) do
   dispatch :deprecation_gen do
     param 'Any', :scope

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:dirname, :type => :rvalue, :doc => <<-EOS
     Returns the dirname of a path.

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # enclose_ipv6.rb
 #

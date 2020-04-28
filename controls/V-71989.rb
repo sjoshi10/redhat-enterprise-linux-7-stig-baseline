@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71989" do
   title "The Red Hat Enterprise Linux operating system must enable SELinux."
   desc  "Without verification of the security functions, security functions may

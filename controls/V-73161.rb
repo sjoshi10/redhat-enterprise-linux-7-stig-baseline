@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-73161" do
   title "The Red Hat Enterprise Linux operating system must prevent binary
 files from being executed on file systems that are being imported via Network

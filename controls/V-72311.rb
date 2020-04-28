@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72311" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the Network File System (NFS) is configured to use RPCSEC_GSS."

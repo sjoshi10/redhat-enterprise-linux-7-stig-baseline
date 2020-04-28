@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:load_module_metadata, :type => :rvalue, :doc => <<-EOT
   EOT

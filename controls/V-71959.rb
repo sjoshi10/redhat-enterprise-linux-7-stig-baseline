@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71959" do
   title "The Red Hat Enterprise Linux operating system must not allow a
 non-certificate trusted host SSH logon to the system."

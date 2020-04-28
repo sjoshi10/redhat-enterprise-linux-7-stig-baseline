@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71941" do
   title "The Red Hat Enterprise Linux operating system must disable account
 identifiers (individuals, groups, roles, and devices) if the password expires."

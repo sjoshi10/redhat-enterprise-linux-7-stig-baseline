@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Functions.create_function(:validate_ipv6_address) do
   dispatch :deprecation_gen do
     param 'Any', :scope

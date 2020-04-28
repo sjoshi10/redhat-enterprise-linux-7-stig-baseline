@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72021" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all local interactive user home directories are group-owned by the home

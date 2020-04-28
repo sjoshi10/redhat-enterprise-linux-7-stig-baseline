@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72037" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that local initialization files do not execute world-writable programs."

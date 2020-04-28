@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:ensure_value_in_string, :type => :rvalue, :doc => <<-EOS
 Returns an string with appended values to the end if they were not present in original string.

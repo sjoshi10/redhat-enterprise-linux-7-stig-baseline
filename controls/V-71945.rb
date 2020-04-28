@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71945" do
   title "The Red Hat Enterprise Linux operating system must lock the associated
 account after three unsuccessful root logon attempts are made within a

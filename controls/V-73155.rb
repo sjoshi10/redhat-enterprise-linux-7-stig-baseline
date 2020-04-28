@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-73155" do
   title "The Red Hat Enterprise Linux operating system must prevent a user from
   overriding the screensaver lock-delay setting for the graphical user interface."

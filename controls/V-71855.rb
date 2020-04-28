@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71855" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the cryptographic hash of system files and commands matches vendor values."

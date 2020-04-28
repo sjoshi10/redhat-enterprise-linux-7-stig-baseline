@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72219" do
   title "The Red Hat Enterprise Linux operating system must be configured to
 prohibit or restrict the use of functions, ports, protocols, and/or services,

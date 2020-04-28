@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puppet/type/file/owner'
 require 'puppet/type/file/group'
 require 'puppet/type/file/mode'

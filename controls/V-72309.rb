@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72309" do
   title "The Red Hat Enterprise Linux operating system must not be performing
 packet forwarding unless the system is a router."

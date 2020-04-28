@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72249" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the SSH daemon does not allow authentication using known hosts

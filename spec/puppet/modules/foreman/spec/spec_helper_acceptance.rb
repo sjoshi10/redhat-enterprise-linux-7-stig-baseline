@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'beaker-rspec/spec_helper'
 require 'beaker-rspec/helpers/serverspec'
 require 'beaker/puppet_install_helper'

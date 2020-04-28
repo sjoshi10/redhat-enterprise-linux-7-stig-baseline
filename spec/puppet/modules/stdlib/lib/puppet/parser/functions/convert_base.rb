@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
 
   newfunction(:convert_base, :type => :rvalue, :arity => 2, :doc => <<-'ENDHEREDOC') do |args|

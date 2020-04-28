@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72293" do
   title "The Red Hat Enterprise Linux operating system must not send Internet
 Protocol version 4 (IPv4) Internet Control Message Protocol (ICMP) redirects."

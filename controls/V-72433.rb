@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72433" do
   title "The Red Hat Enterprise Linux operating system must implement
 certificate status checking for PKI authentication."

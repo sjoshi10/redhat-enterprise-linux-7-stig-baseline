@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72057" do
   title "The Red Hat Enterprise Linux operating system must disable Kernel core
 dumps unless needed."

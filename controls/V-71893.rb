@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71893" do
   title "The Red Hat Enterprise Linux operating system must initiate a
 screensaver after a 15-minute period of inactivity for graphical user

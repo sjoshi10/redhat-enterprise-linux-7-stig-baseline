@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71917" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that when passwords are changed the number of repeating characters of the same

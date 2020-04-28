@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71953" do
   title "The Red Hat Enterprise Linux operating system must not allow an
 unattended or automatic logon to the system via a graphical user interface."

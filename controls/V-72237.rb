@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72237" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all network connections associated with SSH traffic are terminated at the

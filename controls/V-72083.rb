@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72083" do
   title "The Red Hat Enterprise Linux operating system must off-load audit
 records onto a different system or media from the system being audited."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72067" do
   title "The Red Hat Enterprise Linux operating system must implement NIST
 FIPS-validated cryptography for the following: to provision digital signatures,

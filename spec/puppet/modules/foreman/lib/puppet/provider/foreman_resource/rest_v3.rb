@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Base provider for other Puppet types managing Foreman resources
 #
 # This provider uses Net::HTTP from Ruby stdlib, JSON (stdlib on 1.9+ or the

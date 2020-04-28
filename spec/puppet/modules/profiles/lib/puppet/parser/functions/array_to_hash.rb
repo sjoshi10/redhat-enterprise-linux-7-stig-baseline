@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:array_to_hash, :type => :rvalue) do |args|
     new_hash = {}

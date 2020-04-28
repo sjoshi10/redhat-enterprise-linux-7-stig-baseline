@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71947" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that users must provide a password for privilege escalation."

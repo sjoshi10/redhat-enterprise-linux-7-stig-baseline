@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71849" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the file permissions, ownership, and group membership of system files and

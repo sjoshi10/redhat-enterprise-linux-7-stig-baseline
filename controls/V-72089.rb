@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72089" do
   title "The Red Hat Enterprise Linux operating system must initiate an action
 to notify the System Administrator (SA) and Information System Security Officer

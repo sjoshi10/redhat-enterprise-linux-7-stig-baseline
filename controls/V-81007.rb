@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81007" do
   title "Red Hat Enterprise Linux operating systems version 7.2 or newer using
 Unified Extensible Firmware Interface (UEFI) must require authentication upon

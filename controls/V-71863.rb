@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71863" do
   title "The Red Hat Enterprise Linux operating system must display the
 Standard Mandatory DoD Notice and Consent Banner before granting local or

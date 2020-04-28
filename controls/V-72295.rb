@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72295" do
   title "Network interfaces configured on the Red Hat Enterprise Linux
 operating system must not be in promiscuous mode."

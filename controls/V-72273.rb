@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72273" do
   title "The Red Hat Enterprise Linux operating system must enable an
 application firewall, if available."

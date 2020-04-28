@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
 
   newfunction(:validate_x509_rsa_key_pair, :doc => <<-ENDHEREDOC

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puppet'
 
 Puppet::Type.newtype(:firewalld_direct_rule) do

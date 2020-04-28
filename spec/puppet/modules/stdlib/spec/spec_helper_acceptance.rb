@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #! /usr/bin/env ruby -S rspec
 require 'beaker-rspec'
 require 'beaker/puppet_install_helper'

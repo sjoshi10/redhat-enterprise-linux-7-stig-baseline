@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Returns the type when passed a value.
 #
 # @example how to compare values' types

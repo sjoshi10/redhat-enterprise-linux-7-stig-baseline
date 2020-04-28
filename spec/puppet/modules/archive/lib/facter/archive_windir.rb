@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Facter.add(:archive_windir) do
   confine :osfamily => :windows # rubocop:disable Style/HashSyntax
   setcode do

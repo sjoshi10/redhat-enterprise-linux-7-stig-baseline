@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # rubocop:disable RSpec/MultipleExpectations
 require 'spec_helper'
 require 'puppet'

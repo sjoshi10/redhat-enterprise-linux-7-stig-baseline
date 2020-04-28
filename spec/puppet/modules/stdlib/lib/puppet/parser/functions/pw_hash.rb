@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Parser::Functions::newfunction(
   :pw_hash,
   :type => :rvalue,

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:basename, :type => :rvalue, :doc => <<-EOS
     Strips directory (and optional suffix) from a filename

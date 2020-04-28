@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72275" do
   title "The Red Hat Enterprise Linux operating system must display the date
 and time of the last successful account logon upon logon."

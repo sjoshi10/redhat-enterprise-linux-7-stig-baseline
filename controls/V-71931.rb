@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71931" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that existing passwords are restricted to a 60-day maximum lifetime."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Query Foreman
 #
 # The foreman() parser takes a hash value with parameters to execute the query.

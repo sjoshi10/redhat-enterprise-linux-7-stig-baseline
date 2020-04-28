@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:count_dig_values, :type => :rvalue) do |args|
     return_counter = 0

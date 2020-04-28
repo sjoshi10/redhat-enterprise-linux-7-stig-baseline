@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81011" do
   title "The Red Hat Enterprise Linux operating system must mount /dev/shm with
 the nosuid option."

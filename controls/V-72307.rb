@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72307" do
   title "The Red Hat Enterprise Linux operating system must not have an X
 Windows display manager installed unless approved."

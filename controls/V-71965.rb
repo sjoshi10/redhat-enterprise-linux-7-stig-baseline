@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71965" do
   title "The Red Hat Enterprise Linux operating system must uniquely identify
 and must authenticate organizational users (or processes acting on behalf of

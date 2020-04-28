@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # rubocop:disable RSpec/MessageSpies
 ruby_provider = Puppet::Type.type(:archive).provider(:ruby)
 

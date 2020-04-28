@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # is_email_address.rb
 #

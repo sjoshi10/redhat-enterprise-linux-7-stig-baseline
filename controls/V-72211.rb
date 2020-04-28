@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72211" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the rsyslog daemon does not accept log messages from other servers unless

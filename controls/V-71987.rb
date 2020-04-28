@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71987" do
   title "The Red Hat Enterprise Linux operating system must remove all software
 components after updated versions have been installed."

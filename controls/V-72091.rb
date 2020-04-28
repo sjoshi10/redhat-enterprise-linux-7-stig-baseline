@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72091" do
   title "The Red Hat Enterprise Linux operating system must immediately notify
 the System Administrator (SA) and Information System Security Officer (ISSO)

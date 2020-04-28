@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72059" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that a separate file system is used for user home directories (such as /home or

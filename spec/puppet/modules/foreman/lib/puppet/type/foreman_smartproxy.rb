@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.newtype(:foreman_smartproxy) do
   desc 'foreman_smartproxy registers a smartproxy in foreman.'
 

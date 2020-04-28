@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72213" do
   title "The Red Hat Enterprise Linux operating system must use a virus scan
 program."

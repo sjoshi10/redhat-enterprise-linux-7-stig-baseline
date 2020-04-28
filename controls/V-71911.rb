@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71911" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that when passwords are changed a minimum of eight of the total number of

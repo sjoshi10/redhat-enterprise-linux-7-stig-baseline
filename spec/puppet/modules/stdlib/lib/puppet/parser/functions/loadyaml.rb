@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:loadyaml, :type => :rvalue, :arity => -2, :doc => <<-'ENDHEREDOC') do |args|
 Load a YAML file containing an array, string, or hash, and return the data

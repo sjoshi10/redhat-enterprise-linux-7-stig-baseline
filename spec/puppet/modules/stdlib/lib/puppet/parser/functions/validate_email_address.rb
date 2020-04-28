@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:validate_email_address, :doc => <<-ENDHEREDOC
     Validate that all values passed are valid email addresses.

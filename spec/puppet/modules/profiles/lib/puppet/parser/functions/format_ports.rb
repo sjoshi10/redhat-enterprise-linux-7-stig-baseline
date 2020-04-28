@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:format_ports, :type => :rvalue) do |args|
     new_array = []

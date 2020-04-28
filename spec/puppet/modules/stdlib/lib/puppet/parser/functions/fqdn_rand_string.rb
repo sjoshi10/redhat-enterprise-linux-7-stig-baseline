@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Parser::Functions::newfunction(
   :fqdn_rand_string,
   :arity => -2,

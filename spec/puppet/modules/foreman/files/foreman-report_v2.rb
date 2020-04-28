@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # copy this file to your report dir - e.g. /usr/lib/ruby/1.8/puppet/reports/
 # add this report in your puppetmaster reports - e.g, in your puppet.conf add:
 # reports=log, foreman # (or any other reports you want)

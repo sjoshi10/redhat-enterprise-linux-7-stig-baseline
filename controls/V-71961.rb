@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71961" do
   title "Red Hat Enterprise Linux operating systems prior to version 7.2 with a
 Basic Input/Output System (BIOS) must require authentication upon booting into

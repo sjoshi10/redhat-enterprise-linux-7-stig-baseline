@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72305" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that if the Trivial File Transfer Protocol (TFTP) server is required, the TFTP

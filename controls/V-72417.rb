@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72417" do
   title "The Red Hat Enterprise Linux operating system must have the required
         packages for multifactor authentication installed."

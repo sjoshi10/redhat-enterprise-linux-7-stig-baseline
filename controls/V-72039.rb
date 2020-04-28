@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72039" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all system device files are correctly labeled to prevent unauthorized

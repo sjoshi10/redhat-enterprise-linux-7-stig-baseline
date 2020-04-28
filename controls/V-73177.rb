@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-73177" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all wireless network adapters are disabled."

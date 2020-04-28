@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.newtype(:foreman_hostgroup) do
   desc 'foreman_hostgroup registers a hostgroup in foreman.'
 

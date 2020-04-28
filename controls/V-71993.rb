@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71993" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the x86 Ctrl-Alt-Delete key sequence is disabled on the command line."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-77825" do
   title "The Red Hat Enterprise Linux operating system must implement virtual
 address space randomization."

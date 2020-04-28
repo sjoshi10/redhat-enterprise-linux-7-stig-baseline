@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'digest'
 require 'puppet/util/execution'
 require 'shellwords'

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.newtype(:concat_fragment) do
   @doc = "Create a concat fragment to be used by concat.
     the `concat_fragment` type creates a file fragment to be collected by concat based on the tag.

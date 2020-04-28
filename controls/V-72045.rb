@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72045" do
   title "The Red Hat Enterprise Linux operating system must prevent files with
 the setuid and setgid bit set from being executed on file systems that are

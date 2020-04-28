@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71933" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that passwords are prohibited from reuse for a minimum of five generations."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-77821" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the Datagram Congestion Control Protocol (DCCP) kernel module is disabled

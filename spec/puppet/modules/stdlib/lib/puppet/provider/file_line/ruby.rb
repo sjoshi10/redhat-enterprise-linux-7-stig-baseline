@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:file_line).provide(:ruby) do
   def exists?
     if resource[:replace].to_s != 'true' and count_matches(match_regex) > 0

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
 
   newfunction(:validate_ip_address, :doc => <<-ENDHEREDOC

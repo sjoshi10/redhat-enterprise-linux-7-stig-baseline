@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Custom Puppet function to convert unix to dos format
 module Puppet::Parser::Functions
   newfunction(:unix2dos, :type => :rvalue, :arity => 1, :doc => <<-EOS

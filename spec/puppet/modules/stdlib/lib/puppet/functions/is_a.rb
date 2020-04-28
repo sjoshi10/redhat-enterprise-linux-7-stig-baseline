@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Boolean check to determine whether a variable is of a given data type. This is equivalent to the `=~` type checks.
 #
 # @example how to check a data type

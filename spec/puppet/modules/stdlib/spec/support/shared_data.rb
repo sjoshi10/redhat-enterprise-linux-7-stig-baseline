@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module SharedData
   IPV4_PATTERNS = [
     '0.0.0.0',

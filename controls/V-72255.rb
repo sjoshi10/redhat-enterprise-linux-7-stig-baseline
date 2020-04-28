@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72255" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the SSH public host key files have mode 0644 or less permissive."

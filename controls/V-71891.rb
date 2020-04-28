@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71891" do
   title "The Red Hat Enterprise Linux operating system must enable a user
 session lock until that user re-establishes access using established

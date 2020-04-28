@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72269" do
   title "The Red Hat Enterprise Linux operating system must, for networked
 systems, synchronize clocks with a server that is synchronized to one of the

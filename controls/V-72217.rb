@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72217" do
   title "The Red Hat Enterprise Linux operating system must limit the number of
 concurrent sessions to 10 for all accounts and/or account types."

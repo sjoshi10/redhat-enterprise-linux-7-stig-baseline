@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:archive).provide(:curl, parent: :ruby) do
   commands curl: 'curl'
   defaultfor feature: :posix

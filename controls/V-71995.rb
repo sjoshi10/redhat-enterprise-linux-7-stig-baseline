@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71995" do
   title "The Red Hat Enterprise Linux operating system must define default
 permissions for all authenticated users in such a way that the user can only

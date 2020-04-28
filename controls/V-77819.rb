@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-77819" do
   title "The Red Hat Enterprise Linux operating system must uniquely identify
 and must authenticate users using multifactor authentication via a graphical

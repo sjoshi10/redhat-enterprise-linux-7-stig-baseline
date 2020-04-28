@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72073" do
   title "The Red Hat Enterprise Linux operating system must use a file
 integrity tool that is configured to use FIPS 140-2 approved cryptographic

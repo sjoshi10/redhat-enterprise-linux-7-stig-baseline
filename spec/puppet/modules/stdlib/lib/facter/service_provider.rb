@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Fact: service_provider
 #
 # Purpose: Returns the default provider Puppet will choose to manage services

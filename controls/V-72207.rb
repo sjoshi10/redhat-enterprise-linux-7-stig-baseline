@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72207" do
   title "The Red Hat Enterprise Linux operating system must audit all uses of
 the unlinkat syscall."

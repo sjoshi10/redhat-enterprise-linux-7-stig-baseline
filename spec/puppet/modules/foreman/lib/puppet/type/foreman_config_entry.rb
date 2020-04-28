@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.newtype(:foreman_config_entry) do
 
   desc 'foreman_config_entry set a foreman parameter'

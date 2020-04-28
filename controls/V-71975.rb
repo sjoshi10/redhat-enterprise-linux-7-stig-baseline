@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71975" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that designated personnel are notified if baseline configurations are changed

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72133" do
   title "The Red Hat Enterprise Linux operating system must audit all uses of
 the ftruncate syscall."

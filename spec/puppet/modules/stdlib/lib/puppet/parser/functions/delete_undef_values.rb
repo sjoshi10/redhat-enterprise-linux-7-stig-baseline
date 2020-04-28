@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:delete_undef_values, :type => :rvalue, :doc => <<-EOS
 Returns a copy of input hash or array with all undefs deleted.

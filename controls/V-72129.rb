@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72129" do
   title "The Red Hat Enterprise Linux operating system must audit all uses of
 the open_by_handle_at syscall."

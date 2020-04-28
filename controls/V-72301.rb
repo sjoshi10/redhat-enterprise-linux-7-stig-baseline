@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72301" do
   title "The Red Hat Enterprise Linux operating system must not have the
 Trivial File Transfer Protocol (TFTP) server package installed if not required

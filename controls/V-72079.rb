@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72079" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that auditing is configured to produce records containing information to

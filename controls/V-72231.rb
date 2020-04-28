@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72231" do
   title "The Red Hat Enterprise Linux operating system must implement
 cryptography to protect the integrity of Lightweight Directory Access Protocol

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72061" do
   title "The Red Hat Enterprise Linux operating system must use a separate file
 system for /var."

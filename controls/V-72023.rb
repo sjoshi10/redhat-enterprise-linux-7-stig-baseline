@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72023" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all files and directories contained in local interactive user home

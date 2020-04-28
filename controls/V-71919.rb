@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71919" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the PAM system service is configured to store only encrypted

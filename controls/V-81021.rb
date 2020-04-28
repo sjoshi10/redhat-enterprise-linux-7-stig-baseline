@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81021" do
   title "The Red Hat Enterprise Linux operating system must label all
 off-loaded audit logs before sending them to the central log server."

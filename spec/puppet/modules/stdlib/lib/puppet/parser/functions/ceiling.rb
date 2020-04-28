@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:ceiling, :type => :rvalue, :doc => <<-EOS
     Returns the smallest integer greater or equal to the argument.

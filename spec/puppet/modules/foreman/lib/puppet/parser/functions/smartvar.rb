@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Query Foreman in order to resolv a smart variable
 # Foreman holds all the value names and their possible values,
 # this function simply ask foreman for the right value for this host.

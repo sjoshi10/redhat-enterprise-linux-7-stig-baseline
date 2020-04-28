@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72071" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that the file integrity tool is configured to verify extended attributes."

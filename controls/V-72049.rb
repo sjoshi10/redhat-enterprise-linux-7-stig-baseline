@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72049" do
   title "The Red Hat Enterprise Linux operating system must set the umask value
 to 077 for all local interactive user accounts."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # any2array.rb
 #

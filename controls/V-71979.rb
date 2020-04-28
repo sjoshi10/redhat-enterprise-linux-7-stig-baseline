@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71979" do
   title "The Red Hat Enterprise Linux operating system must prevent the
 installation of software, patches, service packs, device drivers, or operating

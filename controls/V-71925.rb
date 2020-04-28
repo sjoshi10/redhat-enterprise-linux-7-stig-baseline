@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71925" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that passwords for new users are restricted to a 24 hours/1 day minimum

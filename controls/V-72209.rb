@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72209" do
   title "The Red Hat Enterprise Linux operating system must send rsyslog output
 to a log aggregation server."

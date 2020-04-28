@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72015" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all local interactive user home directories are defined in the /etc/passwd

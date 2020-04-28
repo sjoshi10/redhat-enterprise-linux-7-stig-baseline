@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72319" do
   title "The Red Hat Enterprise Linux operating system must not forward IPv6
 source-routed packets."

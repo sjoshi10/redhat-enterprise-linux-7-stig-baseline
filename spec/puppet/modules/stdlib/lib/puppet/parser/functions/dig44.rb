@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #
 # dig44.rb
 #

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 #!/usr/bin/env ruby
 
 # Script usually acts as an ENC for a single host, with the certname supplied as argument

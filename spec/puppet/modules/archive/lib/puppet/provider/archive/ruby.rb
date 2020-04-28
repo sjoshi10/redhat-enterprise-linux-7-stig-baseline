@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 begin
   require 'puppet_x/bodeco/archive'
   require 'puppet_x/bodeco/util'

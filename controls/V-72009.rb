@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72009" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all files and directories have a valid group owner."

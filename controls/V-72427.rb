@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72427" do
   title "The Red Hat Enterprise Linux operating system must implement
   multifactor authentication for access to privileged accounts via pluggable

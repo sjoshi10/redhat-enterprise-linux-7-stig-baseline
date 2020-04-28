@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:foreman_hostgroup).provide(:rest_v2) do
 
   confine :feature => :apipie_bindings

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72075" do
   title "The Red Hat Enterprise Linux operating system must not allow removable
 media to be used as the boot loader unless approved."

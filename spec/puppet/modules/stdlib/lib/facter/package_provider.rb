@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # Fact: package_provider
 #
 # Purpose: Returns the default provider Puppet will choose to manage packages

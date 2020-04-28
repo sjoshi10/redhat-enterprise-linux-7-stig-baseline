@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper_acceptance'
 
 describe 'anchor type', :unless => UNSUPPORTED_PLATFORMS.include?(fact('operatingsystem')) do

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72285" do
   title "The Red Hat Enterprise Linux operating system must not forward
 Internet Protocol version 4 (IPv4) source-routed packets by default."

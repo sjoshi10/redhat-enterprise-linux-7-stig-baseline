@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-77823" do
   title "The Red Hat Enterprise Linux operating system must require
 authentication upon booting into single-user and maintenance modes."

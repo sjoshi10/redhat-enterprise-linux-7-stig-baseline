@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-78999" do
   title "The Red Hat Enterprise Linux operating system must audit all uses of
 the create_module syscall."

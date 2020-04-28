@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:is_absolute_path, :type => :rvalue, :arity => 1, :doc => <<-'ENDHEREDOC') do |args|
     Returns boolean true if the string represents an absolute path in the filesystem.  This function works

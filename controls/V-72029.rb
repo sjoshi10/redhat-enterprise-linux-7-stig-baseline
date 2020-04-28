@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72029" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all local initialization files for interactive users are owned by the home

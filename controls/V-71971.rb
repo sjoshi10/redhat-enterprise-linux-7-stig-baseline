@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71971" do
   title "The Red Hat Enterprise Linux operating system must prevent
 non-privileged users from executing privileged functions to include disabling,

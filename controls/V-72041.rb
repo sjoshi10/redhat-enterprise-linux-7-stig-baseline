@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72041" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that file systems containing user home directories are mounted to prevent files

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puppet/parser/functions'
 
 Puppet::Parser::Functions.newfunction(:ensure_resources,

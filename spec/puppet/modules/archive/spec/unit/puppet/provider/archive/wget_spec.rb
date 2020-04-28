@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # rubocop:disable RSpec/MultipleExpectations
 # rubocop:disable RSpec/MessageSpies
 wget_provider = Puppet::Type.type(:archive).provider(:wget)

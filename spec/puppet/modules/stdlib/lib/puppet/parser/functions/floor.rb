@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:floor, :type => :rvalue, :doc => <<-EOS
     Returns the largest integer less or equal to the argument.

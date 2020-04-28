@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81003" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that /etc/pam.d/passwd implements /etc/pam.d/system-auth when changing

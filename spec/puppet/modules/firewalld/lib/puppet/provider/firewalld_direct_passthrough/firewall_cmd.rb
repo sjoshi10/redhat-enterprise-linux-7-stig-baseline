@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'puppet'
 require File.join(File.dirname(__FILE__), '..', 'firewalld.rb')
 

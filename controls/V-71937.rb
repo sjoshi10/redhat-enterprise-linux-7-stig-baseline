@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71937" do
   title "The Red Hat Enterprise Linux operating system must not have accounts
 configured with blank or null passwords."

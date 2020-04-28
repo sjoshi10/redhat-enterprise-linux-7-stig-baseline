@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81017" do
   title "The Red Hat Enterprise Linux operating system must configure the
 au-remote plugin to off-load audit logs using the audisp-remote daemon."

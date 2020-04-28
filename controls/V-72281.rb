@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72281" do
   title "For Red Hat Enterprise Linux operating systems using DNS resolution,
 at least two name servers must be configured."

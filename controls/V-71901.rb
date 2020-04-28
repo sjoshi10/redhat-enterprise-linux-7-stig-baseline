@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71901" do
   title "The Red Hat Enterprise Linux operating system must initiate a session
 lock for graphical user interfaces when the screensaver is activated."

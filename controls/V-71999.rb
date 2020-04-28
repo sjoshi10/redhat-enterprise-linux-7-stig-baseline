@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-71999" do
   title "The Red Hat Enterprise Linux operating system security patches and
 updates must be installed and up to date."

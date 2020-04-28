@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-73171" do
   title "The Red Hat Enterprise Linux operating system must generate audit
 records for all account creations, modifications, disabling, and termination

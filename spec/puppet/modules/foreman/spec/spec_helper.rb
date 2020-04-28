@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 # This file is managed centrally by modulesync
 #   https://github.com/theforeman/foreman-installer-modulesync
 

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Functions.create_function(:validate_legacy) do
   # The function checks a value against both the target_type (new) and the previous_validation function (old).
 

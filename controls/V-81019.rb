@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-81019" do
   title "The Red Hat Enterprise Linux operating system must take appropriate
 action when the audisp-remote buffer is full."

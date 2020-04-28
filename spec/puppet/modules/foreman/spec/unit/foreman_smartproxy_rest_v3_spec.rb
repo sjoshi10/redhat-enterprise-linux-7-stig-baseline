@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 require 'spec_helper'
 
 provider_class = Puppet::Type.type(:foreman_smartproxy).provider(:rest_v3)

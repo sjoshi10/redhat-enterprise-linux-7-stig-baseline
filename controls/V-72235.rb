@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72235" do
   title "The Red Hat Enterprise Linux operating system must be configured so
 that all networked systems use SSH for confidentiality and integrity of

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72145" do
   title "The Red Hat Enterprise Linux operating system must generate audit
 records for all unsuccessful account access events."

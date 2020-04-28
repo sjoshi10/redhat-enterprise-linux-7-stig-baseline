@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72081" do
   title "The Red Hat Enterprise Linux operating system must shut down upon
 audit processing failure, unless availability is an overriding concern. If

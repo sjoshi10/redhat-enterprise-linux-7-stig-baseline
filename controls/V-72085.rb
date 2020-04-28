@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72085" do
   title "The Red Hat Enterprise Linux operating system must encrypt the
 transfer of audit records off-loaded onto a different system or media from the

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 Puppet::Type.type(:foreman_config_entry).provide(:cli) do
 
   desc "foreman_config_entry's CLI provider"

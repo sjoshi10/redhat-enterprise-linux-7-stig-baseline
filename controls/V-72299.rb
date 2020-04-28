@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72299" do
   title "The Red Hat Enterprise Linux operating system must not have a File
 Transfer Protocol (FTP) server package installed unless needed."

@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 module Puppet::Parser::Functions
   newfunction(:count, :type => :rvalue, :arity => -2, :doc => <<-EOS
 Takes an array as first argument and an optional second argument.

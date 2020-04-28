@@ -1,3 +1,4 @@
+# -*- encoding : utf-8 -*-
 control "V-72247" do
   title "The Red Hat Enterprise Linux operating system must not permit direct
 logons to the root account using remote access via SSH."
