@@ -33,7 +33,9 @@ finding.
   tag cci: ["CCI-001668"]
   tag nist: ["SI-3 a", "Rev_4"]
 
-  if ! input('custom_antivirus')
+  custom_antivirus = input('custom_antivirus')
+
+  if ! custom_antivirus
     describe.one do
       describe service('nails') do
       it { should be_running }
@@ -45,8 +47,9 @@ finding.
   else
     # Allow user to provide a description of their AV solution
     # for documentation.
-    describe "Antivirus: #{input('custom_antivirus_description')}" do
-      subject { input('custom_antivirus_description') }
+    custom_antivirus_description = input('custom_antivirus_description')
+    describe "Antivirus: #{custom_antivirus_description}" do
+      subject { custom_antivirus_description }
       it { should_not cmp 'None' }
     end
   end

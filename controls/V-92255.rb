@@ -64,7 +64,9 @@ with the Authorizing Official.
   tag cci: ["CCI-001263"]
   tag nist: ["SI-4 (5)", "Rev_4"]
 
-  if ! input('custom_hips')
+  custom_hips = input('custom_hips')
+
+  if ! custom_hips
     describe package('MFEhiplsm') do
       it { should be_installed }
     end
@@ -74,15 +76,17 @@ with the Authorizing Official.
   else
     # Special case for SELinux
     sel_mode = command('getenforce').stdout.strip
+    custom_hips_daemon = input('custom_hips_daemon')
+    max_daemon_processes = input('max_daemon_processes')
 
     describe.one do
       describe "SELinux mode" do
         subject { sel_mode }
         it { should cmp 'Enforcing' }
       end
-      describe processes(/#{input('custom_hips_daemon')}/) do
+      describe processes(/#{custom_hips_daemon}/) do
         it { should exist }
-        its('count') { should be < input('max_daemon_processes') }
+        its('count') { should be < max_daemon_processes }
       end
     end
   end
