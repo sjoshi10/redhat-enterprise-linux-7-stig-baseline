@@ -30,7 +30,7 @@ jobs:
       - name: Clone full repository so we can push
         run: git fetch --prune --unshallow
       - name: Setup Ruby
-        uses: actions/setup-ruby@v1
+        uses: ruby/setup-ruby@v1
         with:
           ruby-version: '2.7'
       - name: Setup caching
