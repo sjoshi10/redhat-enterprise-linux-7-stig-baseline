@@ -58,8 +58,10 @@ command:
   tag cci: ["CCI-000057"]
   tag nist: ["AC-11 a", "Rev_4"]
 
+  multiplexer_packages = input('terminal_mux_pkgs')
+
   describe.one do
-    input('terminal_mux_pkgs').each do |pkg|  
+    multiplexer_packages.each do |pkg|  
       describe package(pkg) do
         it { should be_installed }
       end
