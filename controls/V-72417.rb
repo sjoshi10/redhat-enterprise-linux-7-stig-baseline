@@ -72,7 +72,7 @@ control "V-72417" do
     end 
   elsif mfa_pkg_list.empty?
     describe "The required Smartcard packages have not beed defined, plese define them in your `inputs`." do
-      subjec { mfa_pkg_list }
+      subject { mfa_pkg_list }
       it { should_not be_empty }
     end
   else
