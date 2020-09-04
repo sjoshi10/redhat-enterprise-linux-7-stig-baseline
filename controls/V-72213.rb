@@ -43,6 +43,9 @@ finding.
     describe service('clamav-daemon.socket') do
       it { should be_running }
       end
+    describe service('ds_agent') do
+      it { should be_running }
+      end
     end
   else
     # Allow user to provide a description of their AV solution
