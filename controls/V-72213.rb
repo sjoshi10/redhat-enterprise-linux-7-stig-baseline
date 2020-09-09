@@ -38,13 +38,13 @@ finding.
   if ! custom_antivirus
     describe.one do
       describe service('nails') do
-      it { should be_running }
-    end
-    describe service('clamav-daemon.socket') do
-      it { should be_running }
+        it { should be_running }
       end
-    describe service('ds_agent') do
-      it { should be_running }
+      describe service('clamav-daemon.socket') do
+        it { should be_running }
+      end
+      describe service('ds_agent') do
+        it { should be_running }
       end
     end
   else
